@@ -1,2 +1,4 @@
 # hello-word
-programmation stuff
+
+My names is Stefano i'm interested about programmation word
+
