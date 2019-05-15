@@ -1,0 +1,6 @@
+def cerca_lettera (a):
+    vocali= 'aeiou'
+    if a in vocali:
+        print('hai immesso una vocale')
+    else:
+        print('hai immesso una consonante')
