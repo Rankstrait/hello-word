@@ -1,4 +1,4 @@
-def cerca_lettera (a):
+def cerca_lettera ('a'):
     vocali= 'aeiou'
     if a in vocali:
         print('hai immesso una vocale')
