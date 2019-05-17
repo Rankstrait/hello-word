@@ -1,0 +1,17 @@
+def max_tra_3_numeri (a,b,c):
+    if a>b and a>c:
+        print(str(a)+'è il numero maggiore')
+    elif b>a and b>c:
+        print(str(b)+'è il numero maggiore')
+    elif c>a and c>b:
+        print(str(c)+'è il numero maggiore')
+    elif a==b and a==c and b==c:
+        print('tutti i numeri immessi sono uguali')
+    elif a==b:
+        print(str(a)+'è uguale a'+str(b))
+    elif a==c:
+        print(str(a)+'è uguale a'+str(c))
+    elif b==c:
+        print(str(b)+'è uguale a'+str(c))
+    
+   
