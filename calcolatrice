@@ -1,0 +1,40 @@
+while True :
+    print('''
+          questo è un rudimentale calcolatore creato da Stefar
+          scegli l'operazione che vuoi fare (addizione, sottrazzione , moltiplicazione , divisione, esponenziale) 
+          ''')
+    scelta = input()
+
+    if scelta == 'addizzione'   :
+        a= input ('a=')
+        b= input ('b=')
+        print ( str(float(a))+' + ' + str(float(b))+' = '+ str(float(a)+float(b)))
+
+    elif scelta == 'sottrazzione'   :
+        a= input ('a=')
+        b= input ('b=')
+        print ( str(float(a))+' - ' + str(float(b))+' = '+ str(float(a)-float(b)))
+
+    elif scelta == 'moltiplicazione'  :
+        a= input ('a=')
+        b= input ('b=')
+        print ( str(float(a))+' * ' + str(float(b))+' = '+ str(float(a)*float(b)))
+
+    elif scelta == 'divisione'  :
+        a= input ('a=')
+        b= input ('b=')
+        print ( str(float(a))+' / ' + str(float(b))+' = '+ str(float(a)/float(b)))
+
+    elif scelta == 'esponenziale'  :
+        a= input ('a=')
+        b= input ('b=')
+        print ( str(float(a))+' ** ' + str(float(b))+' = '+ str(float(a)**float(b)))
+
+    elif scelta == 'esc'  :
+        break
+
+    loop = input (' vuoi continuare ad usare il calcolatore?')
+    if loop == 'no':
+        break
+    else:
+        continue
