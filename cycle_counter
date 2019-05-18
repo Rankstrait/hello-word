@@ -1,0 +1,31 @@
+// hi this a cycle counter 
+when Arduino make  20 loop count=20 so going to the if part program and get number_of_cycle +1 and reset the count for another cycles and print the number_of_cycle to the monitor
+This is no end program
+the code:
+
+int ledPin=13;
+int delayPeriod=100;
+int count=0;
+int number_of_cycle=0;
+void setup() {
+ 
+Serial.begin(9600);
+pinMode(ledPin,OUTPUT);
+}
+
+void loop() {
+  
+digitalWrite(ledPin,HIGH);
+delay(delayPeriod);
+digitalWrite(ledPin,LOW);
+delay(delayPeriod);
+count ++;
+
+if(count==20)
+{
+count= 0;
+number_of_cycle ++;
+Serial.println (number_of_cycle);
+
+}
+}
