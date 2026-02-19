@@ -1,6 +1,6 @@
 while True :
     print('''
-          questo è un rudimentale calcolatore creato da Stefar
+          questo è un rudimentale calcolatore.
           scegli l'operazione che vuoi fare (addizione, sottrazzione , moltiplicazione , divisione, esponenziale) 
           ''')
     scelta = input()
